@@ -8,7 +8,7 @@
 - when a pull request is accepted and
 - when a pull request is rejected.
 
-![image](https://user-images.githubusercontent.com/399968/76140067-e8f44d00-6056-11ea-98f5-629903599bf4.png)
+![image](https://user-images.githubusercontent.com/4907398/243422028-eeb972f8-c4dd-484e-b86d-577679face47.png)
 
 ### Setup
 
@@ -34,7 +34,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Slack Notification
-      uses: kv109/action-ready-for-review@0.1
+      uses: 4IP/slack-notif-review@0.1
       env:
         SLACK_CHANNEL: your-slack-channel           # required
         SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }} # required
@@ -54,7 +54,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Slack Notification
-      uses: kv109/action-ready-for-review@0.1
+      uses: 4IP/slack-notif-review@0.1
       env:
         IGNORE_DRAFTS: false # Ignore draft pull requests. Default: true.
         PR_APPROVED_FORMAT: | # Format is fully customizable.
