@@ -1,6 +1,6 @@
 # Fork from this repository: [kv109](https://github.com/kv109/action-ready-for-review)
 
-# Maintained by Arief JR < arief666@hotmail.com >
+# Maintained by [Arief JR](arief666@hotmail.com)
 # ReadyForReview - Slack Notifier
 
 **ReadyForReview** notifies you 
